@@ -1,5 +1,5 @@
 # Nykvist
-An intermediate GIMP plugin for soft black and white portraits with faded-out corners.Available for both GIMP 2.0 and GIMP 3.0 versions. Free to download and use.
+An intermediate GIMP plugin for soft black and white portraits with faded-out corners. Available for both GIMP 2.0 and GIMP 3.0 versions. Free to download and use.
 
 ![Rabbit-Nykvist](https://github.com/Nikkinoodl/Nykvist/assets/17559271/5377844a-8acc-4343-b351-93bb653990da)
 
