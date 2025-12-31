@@ -63,7 +63,7 @@ class Nykvist(Gimp.PlugIn):
         Gimp.context_set_background(Gegl.Color.new('black'))
         Gimp.context_set_paint_mode(Gimp.LayerMode.NORMAL)
         Gimp.context_set_gradient_fg_bg_rgb()
-        Gimp.context_set_gradient_blend_color_space(Gimp.GradientBlendColorSpace.LINEAR)
+        Gimp.context_set_gradient_blend_color_space(Gimp.GradientBlendColorSpace.RGB_LINEAR)
         Gimp.context_set_opacity(100)
         Gimp.context_set_gradient_reverse(True)
 
