@@ -125,6 +125,9 @@ class Nykvist(Gimp.PlugIn):
         Gimp.context_pop()
         image.undo_group_end()
 
+		# Clean up Gegl
+		Gegl.exit()
+
         return procedure.new_return_values(Gimp.PDBStatusType.SUCCESS, GLib.Error())
     #
     # --- Effect functions ---
